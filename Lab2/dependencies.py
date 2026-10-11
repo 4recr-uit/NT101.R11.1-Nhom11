@@ -18,14 +18,14 @@ def ensure_package(package_name, import_name=None):
 
         print(f"[SUCCESS] {package_name} installed!")
     else:
-        print(f"[OK] {package_name} already installed.")
+        pass
 
 
 PACKAGES = {
     "pycryptodome": "Crypto",       # For task 2.2, 2.3, 2.4
     "numpy": "numpy",               # For task 2.6
     "matplotlib": "matplotlib",     # Optional
-    "sympy": "sympy"                # Optional 
+    "sympy": "sympy"                # Optional
 }
 
 # If you want to install specific packages in a task
