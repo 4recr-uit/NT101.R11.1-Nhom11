@@ -25,7 +25,7 @@ PACKAGES = {
     "pycryptodome": "Crypto",       # For task 2.2, 2.3, 2.4
     "numpy": "numpy",               # For task 2.6
     "matplotlib": "matplotlib",     # Optional
-    "sympy": "sympy"                # Optional
+    "sympy": "sympy"                # For task 2.6
 }
 
 # If you want to install specific packages in a task
