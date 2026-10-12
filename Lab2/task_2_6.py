@@ -1,6 +1,5 @@
 from dependencies import install_dependencies
-install_dependencies(["numpy", "sympy"])
-from numpy import array
+install_dependencies(["sympy"])
 from random import randint
 from sympy import randprime, prevprime, isprime
 
